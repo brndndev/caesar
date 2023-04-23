@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caesar Cipher</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Caesar Cipher</h1>
+		<form>
+			<label for="plaintext">Plaintext:</label>
+			<input type="text" id="plaintext" placeholder="Enter plaintext">
+			<br>
+			<label for="shift">Shift:</label>
+			<input type="text" id="shift" placeholder="Enter shift amount">
+			<br>
+			<label for="ciphertext">Ciphertext:</label>
+			<textarea id="ciphertext" readonly></textarea>
+			<br>
+			<button type="button" id="encrypt-button">Encrypt</button>
+			<button type="button" id="copy-button">Copy to clipboard</button>
+			<button type="button" id="save-button">Save</button>
+			<button type="button" id="load-button">Load</button>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
